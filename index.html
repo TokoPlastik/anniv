@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bagas & Piya — 1 Tahun Bersama 💙</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght=0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght=300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="particles"></div>
+
+  <div class="ocean-bg">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,60 C150,100 350,0 600,60 C850,120 1050,20 1200,60 L1200,120 L0,120 Z" fill="#378ADD"/>
+      <path d="M0,80 C200,40 400,100 600,80 C800,60 1000,100 1200,80 L1200,120 L0,120 Z" fill="#185FA5" opacity="0.7"/>
+    </svg>
+  </div>
+
+  <nav>
+    <a href="#hero">Beranda</a>
+    <a href="#timeline">Perjalanan</a>
+    <a href="#letter">Surat</a>
+    <a href="#gallery">Foto</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#music">Musik</a>
+    <a href="#promises">Janji</a>
+    <a href="#jar">Harapan</a>
+    <a href="#ldr">LDR</a>
+    <a href="#memories">Kenangan</a>
+  </nav>
+
+  <div id="hero">
+    <p class="hero-label">✦ Satu Tahun Yang Indah ✦</p>
+    <h1 class="hero-names">Bagas<br><em>&amp; Piya</em></h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">Terima kasih sudah menjadi bagian dari hidupku</p>
+    <div class="hero-counter">
+      <div class="counter-item">
+        <div class="counter-num" id="cnt-days">0</div>
+        <div class="counter-label">Hari</div>
+      </div>
+      <div class="counter-item" style="padding: 0 1rem; border-left: 1px solid rgba(133,183,235,0.2); border-right: 1px solid rgba(133,183,235,0.2);">
+        <div class="counter-num" id="cnt-hours">0</div>
+        <div class="counter-label">Jam</div>
+      </div>
+      <div class="counter-item">
+        <div class="counter-num" id="cnt-mins">0</div>
+        <div class="counter-label">Menit</div>
+      </div>
+    </div>
+    <div class="scroll-hint" style="animation: fade-up 1s 2.5s forwards">
+      <svg width="16" height="20" viewBox="0 0 16 20" fill="none">
+        <rect x="1" y="1" width="14" height="18" rx="7" stroke="rgba(133,183,235,0.5)" stroke-width="1"/>
+        <circle cx="8" cy="6" r="2" fill="rgba(133,183,235,0.5)">
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 6" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
+      Scroll
+    </div>
+  </div>
+
+  <section id="timeline" class="wave-section" style="max-width:100%; padding: 6rem 0;">
+    <div style="max-width: 700px; margin: 0 auto; padding: 0 2rem;">
+      <p class="section-sub">✦ Perjalanan Kita</p>
+      <h2 class="section-title">Timeline <em>Cinta</em></h2>
+      <div class="ocean-divider"></div>
+      <div class="timeline" id="tl">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-emoji">🌊</div>
+          <div class="timeline-date">Awal Mula</div>
+          <div class="timeline-title">Pertama Kali Bertemu</div>
+          <div class="timeline-desc">Saat itulah semuanya dimulai. Dunia terasa berbeda sejak hari itu — lebih berwarna, lebih semangat, lebih hidup.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-emoji">💬</div>
+          <div class="timeline-date">Mulai Dekat</div>
+          <div class="timeline-title">Ribuan Pesan, Satu Hati</div>
+          <div class="timeline-desc">Chat yang ngga pernah sepi. Dari pagi sampai malam, kita selalu ada cerita baru yang mau dibagi.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background: var(--gold); box-shadow: 0 0 0 4px rgba(239,159,39,0.4);"></div>
+          <div class="timeline-emoji">💙</div>
+          <div class="timeline-date" style="color: var(--gold);">Hari Spesial</div>
+          <div class="timeline-title">Resmi Jadi Pasangan</div>
+          <div class="timeline-desc">Hari di mana kita akhirnya bilang "iya" satu sama lain. Hari yang akan selalu kita ingat seumur hidup.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-emoji">🌏</div>
+          <div class="timeline-date">Perjalanan LDR</div>
+          <div class="timeline-title">Jarak Bukan Halangan</div>
+          <div class="timeline-desc">Jarak memang ada, tapi cinta kita lebih jauh jangkauannya. Setiap hari kita buktikan bahwa cinta kita itu nyata dan indah.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background: var(--gold-light); box-shadow: 0 0 0 5px rgba(250,199,117,0.3); width: 18px; height: 18px; left: -1.5rem;"></div>
+          <div class="timeline-emoji">🎉</div>
+          <div class="timeline-date" style="color: var(--gold);">Sekarang</div>
+          <div class="timeline-title">1 Tahun Yang Luar Biasa</div>
+          <div class="timeline-desc">Satu tahun penuh tawa, rindu, cerita, dan cinta. Dan ini baru permulaan dari banyak tahun indah yang akan datang bersama kamu, Piya.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="letter">
+    <p class="section-sub">✦ Dari Hatiku</p>
+    <h2 class="section-title">Surat <em>Cinta</em></h2>
+    <div class="ocean-divider"></div>
+    <div id="letter-box">
+      <p class="letter-text" contenteditable="true" id="letter-content">
+        Piya yang aku sayang,<br><br>
+        Ngga kerasa ya, udah satu tahun kita jalani ini semua. Satu tahun yang penuh dengan kangen yang kadang bikin sedih, tapi juga penuh dengan kebahagiaan yang ngga bisa aku jelasin pakai kata-kata.<br><br>
+        Aku tau LDR itu nggak mudah. Tapi setiap kali aku hampir nyerah sama jarak ini, aku inget wajahmu, suaramu, tawa kamu — dan semuanya jadi lebih baik lagi.<br><br>
+        Kamu bukan cuma pacar aku. Kamu adalah orang yang bikin hari-hariku punya warna. Makasih udah sabar sama aku. Makasih udah pilih aku.<br><br>
+        Satu tahun ini belum ada apa-apanya dibanding semua yang mau kita lalui bareng. Aku janji, suatu hari nanti jarak ini cuma akan jadi cerita lucu yang kita ketawain berdua.<br><br>
+        Aku sayang kamu, Piya. 💙
+      </p>
+      <div class="letter-sig">— Agas</div>
+    </div>
+    <p style="text-align:center; color: var(--ocean-pale); font-size: 0.8rem; margin-top: 1rem; font-style: italic;">* .*</p>
+  </section>
+
+  <section id="gallery" class="wave-section" style="max-width:100%; padding: 6rem 0;">
+    <div style="max-width: 700px; margin: 0 auto; padding: 0 2rem;">
+      <p class="section-sub">✦ Momen Kita</p>
+      <h2 class="section-title">Galeri <em>Kenangan</em></h2>
+      <div class="ocean-divider"></div>
+      <div class="gallery-grid">
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+        <div class="photo-slot" onclick="this.querySelector('input').click()">
+          <div class="photo-icon">📸</div>
+          <div style="color: var(--ocean-mist); font-size: 0.75rem; text-align: center;">Tambah Foto</div>
+          <input type="file" accept="image/*" onchange="loadPhoto(this)" style="display:none">
+        </div>
+      </div>
+      <p style="text-align:center; color: var(--ocean-pale); font-size: 0.8rem; margin-top: 1rem; font-style: italic;">* Klik kotak untuk upload foto *</p>
+    </div>
+  </section>
+
+  <section id="quiz">
+    <p class="section-sub">✦ Seberapa Kenal Kita</p>
+    <h2 class="section-title">Quiz <em>Couple</em></h2>
+    <div class="ocean-divider"></div>
+    <div id="quiz-container">
+      <div class="quiz-card" id="qcard-0">
+        <div class="quiz-question">1. Apa yang pertama kali Agas rasain waktu ketemu Piya?</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz(0, 'a', this)">Langsung suka 💘</button>
+          <button class="quiz-opt" onclick="answerQuiz(0, 'b', this)">Deg-degan banget 🫀</button>
+          <button class="quiz-opt" onclick="answerQuiz(0, 'c', this)">Biasa aja dulu 😅</button>
+          <button class="quiz-opt" onclick="answerQuiz(0, 'd', this)">Nggak nyangka 😲</button>
+        </div>
+      </div>
+      <div class="quiz-card" id="qcard-1">
+        <div class="quiz-question">2. LDR itu bikin hubungan kita jadi...?</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz(1, 'a', this)">Lebih kuat 💪</button>
+          <button class="quiz-opt" onclick="answerQuiz(1, 'b', this)">Lebih romantis 🌙</button>
+          <button class="quiz-opt" onclick="answerQuiz(1, 'c', this)">Lebih sabar 🌿</button>
+          <button class="quiz-opt" onclick="answerQuiz(1, 'd', this)">Semua di atas! ✨</button>
+        </div>
+      </div>
+      <div class="quiz-card" id="qcard-2">
+        <div class="quiz-question">3. Hal yang paling kamu rindukan dari agas?</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz(2, 'a', this)">Suaranya 🎵</button>
+          <button class="quiz-opt" onclick="answerQuiz(2, 'b', this)">Tawanya 😂</button>
+          <button class="quiz-opt" onclick="answerQuiz(2, 'c', this)">Kehadirannya 🤗</button>
+          <button class="quiz-opt" onclick="answerQuiz(2, 'd', this)">Semua! 💙</button>
+        </div>
+      </div>
+      <div class="quiz-card" id="qcard-3">
+        <div class="quiz-question">4. Satu kata yang paling cocok buat hubungan Agas & Piya?</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz(3, 'a', this)">Tulus 🌊</button>
+          <button class="quiz-opt" onclick="answerQuiz(3, 'b', this)">Sayang 💙</button>
+          <button class="quiz-opt" onclick="answerQuiz(3, 'c', this)">Kuat 🏔️</button>
+          <button class="quiz-opt" onclick="answerQuiz(3, 'd', this)">Abadi ♾️</button>
+        </div>
+      </div>
+      <div class="quiz-card" id="qcard-4">
+        <div class="quiz-question">5. Di mana kalian ingin pergi pertama kali setelah LDR berakhir?</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz(4, 'a', this)">Pantai 🏖️</button>
+          <button class="quiz-opt" onclick="answerQuiz(4, 'b', this)">Kafe cozy ☕</button>
+          <button class="quiz-opt" onclick="answerQuiz(4, 'c', this)">Mana aja bareng 🗺️</button>
+          <button class="quiz-opt" onclick="answerQuiz(4, 'd', this)">Rumah aja 🏠</button>
+        </div>
+      </div>
+      <div class="quiz-score" id="quiz-result">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🎉</div>
+        <div class="quiz-score-num" id="score-num">5/5</div>
+        <div style="color: var(--ocean-mist); font-size: 0.9rem; margin-top: 0.5rem;">Quiz selesai!</div>
+        <div style="font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--white); margin-top: 1rem;" id="score-msg"></div>
+        <button class="btn btn-gold" onclick="resetQuiz()" style="margin-top: 1.5rem;">Ulangi Quiz</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="music" class="wave-section" style="max-width:100%; padding: 6rem 0;">
+    <div style="max-width: 700px; margin: 0 auto; padding: 0 2rem;">
+      <p class="section-sub">✦ Lagu Kita</p>
+      <h2 class="section-title">Playlist <em>Cinta</em></h2>
+      <div class="ocean-divider"></div>
+      <div class="music-player">
+        <div class="vinyl" id="vinyl"></div>
+        <div class="song-title" id="song-title">Perfect</div>
+        <div class="song-artist" id="song-artist">Ed Sheeran</div>
+        <div class="progress-bar" id="prog-bar" onclick="seekSong(event)">
+          <div class="progress-fill" id="prog-fill"></div>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:0.75rem; color: var(--ocean-mist); margin-bottom:1rem;">
+          <span id="cur-time">0:00</span>
+          <span id="tot-time">0:00</span>
+        </div>
+        <div class="music-controls">
+          <button class="ctrl-btn" onclick="prevSong()" title="Sebelumnya">⏮</button>
+          <button class="ctrl-btn play-btn" id="play-btn" onclick="togglePlay()">▶</button>
+          <button class="ctrl-btn" onclick="nextSong()" title="Berikutnya">⏭</button>
+        </div>
+        <div class="song-list" id="song-list"></div>
+      </div>
+      <p style="text-align:center; color: var(--ocean-pale); font-size: 0.8rem; margin-top: 1rem; font-style: italic;">* Klik lagu untuk putar otomatis 💙 *</p>
+    </div>
+  </section>
+
+  <section id="promises">
+    <p class="section-sub">✦ Janjiku Untukmu</p>
+    <h2 class="section-title">10 <em>Janji</em></h2>
+    <div class="ocean-divider"></div>
+    <div class="promises-grid" id="promise-grid"></div>
+  </section>
+
+  <section id="jar" class="wave-section" style="max-width:100%; padding: 6rem 0;">
+    <div style="max-width: 700px; margin: 0 auto; padding: 0 2rem;">
+      <p class="section-sub">✦ Impian Kita</p>
+      <h2 class="section-title">Toples <em>Harapan</em></h2>
+      <div class="ocean-divider"></div>
+      <div class="jar-wrapper">
+        <div class="jar" onclick="shakeJar()" title="Kocok toples!">
+          <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="jar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#0C447C;stop-opacity:0.8"/>
+                <stop offset="50%" style="stop-color:#185FA5;stop-opacity:0.5"/>
+                <stop offset="100%" style="stop-color:#0C447C;stop-opacity:0.8"/>
+              </linearGradient>
+            </defs>
+            <rect x="50" y="20" width="100" height="18" rx="5" fill="#0C447C" stroke="#378ADD" stroke-width="1"/>
+            <rect x="40" y="36" width="120" height="190" rx="20" fill="url(#jar-grad)" stroke="#378ADD" stroke-width="1.5"/>
+            <rect x="44" y="40" width="30" height="182" rx="4" fill="rgba(133,183,235,0.08)"/>
+            <text x="100" y="140" text-anchor="middle" font-family="Cormorant Garamond" font-size="14" fill="rgba(133,183,235,0.5)" font-style="italic">Kocok!</text>
+            <ellipse cx="100" cy="220" rx="60" ry="6" fill="rgba(12,68,124,0.5)"/>
+          </svg>
+        </div>
+        <div class="jar-notes" id="jar-notes">
+          <div class="wish-note">Jalan-jalan bareng 🗺️</div>
+          <div class="wish-note">Makan bareng 🍜</div>
+          <div class="wish-note">Nonton bioskop 🎬</div>
+        </div>
+        <div class="jar-input-area">
+          <input type="text" class="jar-input" id="jar-input" placeholder="Tulis harapan atau wish kamu..." maxlength="60" onkeypress="if(event.key==='Enter')addWish()">
+          <button class="btn btn-gold" onclick="addWish()">Tambah ✨</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ldr">
+    <p class="section-sub">✦ Melintasi Jarak</p>
+    <h2 class="section-title">Kita & <em>LDR</em></h2>
+    <div class="ocean-divider"></div>
+    <div class="ldr-section">
+      <div class="ldr-city">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏙️</div>
+        <div class="ldr-person">Bagas</div>
+        <div class="ldr-city-name" contenteditable="true" id="city-bagas">Kota Bagas</div>
+        <div class="ldr-clock" id="clock-bagas">--:--</div>
+      </div>
+      <div class="ldr-middle">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">💙</div>
+        <div style="color: var(--ocean-pale); font-size: 0.8rem; margin-bottom: 0.5rem;">JARAK HATI</div>
+        <div class="ldr-distance">0 km</div>
+        <div class="ldr-distance-label">Nggak ada jarak<br>di antara hati kita</div>
+        <div class="signal-dots" style="margin-top: 1rem;">
+          <div class="signal-dot"></div>
+          <div class="signal-dot"></div>
+          <div class="signal-dot"></div>
+        </div>
+        <div style="margin-top: 1.5rem; color: var(--ocean-mist); font-size: 0.8rem; font-style: italic; font-family: 'Cormorant Garamond', serif; font-size: 1rem;">
+          "Jarak hanya angka,<br>tapi rasa kita nyata"
+        </div>
+      </div>
+      <div class="ldr-city">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌺</div>
+        <div class="ldr-person">Piya</div>
+        <div class="ldr-city-name" contenteditable="true" id="city-piya">Kota Piya</div>
+        <div class="ldr-clock" id="clock-piya">--:--</div>
+      </div>
+    </div>
+    <div style="margin-top: 3rem;">
+      <div style="background: rgba(24,95,165,0.1); border: 1px solid rgba(133,183,235,0.15); border-radius: 16px; padding: 2rem; text-align: center;">
+        <div style="font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: var(--white); margin-bottom: 1rem;">Pesan dan Kesan 💌</div>
+        <textarea id="rindu-msg" placeholder="Tulis pesan rindu kamu untuk Piya di sini..." style="width:100%; background: rgba(12,68,124,0.3); border: 1px solid rgba(133,183,235,0.2); border-radius: 10px; padding: 1rem; color: var(--white); font-family: 'DM Sans', sans-serif; font-size: 0.9rem; resize: none; height: 100px; outline: none;"></textarea>
+        <button class="btn btn-gold" onclick="sendRindu()" style="margin-top: 1rem;">Kirim 💙</button>
+        <div id="rindu-sent" style="display:none; margin-top: 1rem; color: var(--gold); font-style: italic; font-family: 'Cormorant Garamond', serif; font-size: 1.1rem;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="memories" class="wave-section" style="max-width:100%; padding: 6rem 0;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 0 2rem;">
+      <p class="section-sub">✦ Papan Kenangan</p>
+      <h2 class="section-title">Memory <em>Board</em></h2>
+      <div class="ocean-divider"></div>
+      <div class="memory-input-area">
+        <input type="text" class="memory-input" id="mem-input" placeholder="Tulis kenangan indah kalian..." maxlength="80" onkeypress="if(event.key==='Enter')addMemory()">
+        <button class="btn" onclick="addMemory()">Simpan 💙</button>
+      </div>
+      <div class="memory-grid" id="memory-grid">
+        <div class="memory-card">
+          <div class="memory-emoji">💬</div>
+          <div>Pertama kali video call yang nggak mau ditutup</div>
+          <button class="memory-del" onclick="this.parentElement.remove()">✕</button>
+        </div>
+        <div class="memory-card">
+          <div class="memory-emoji">🌙</div>
+          <div>Begadang bareng sambil cerita hal random</div>
+          <button class="memory-del" onclick="this.parentElement.remove()">✕</button>
+        </div>
+        <div class="memory-card">
+          <div class="memory-emoji">😂</div>
+          <div>Ketawa bareng sampai nggak jelas sebab musababnya</div>
+          <button class="memory-del" onclick="this.parentElement.remove()">✕</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-names">Bagas & Piya</div>
+    <div style="font-size: 2rem; margin: 1rem 0;">💙</div>
+    <div class="footer-date">Satu Tahun · Satu Cinta · Selamanya</div>
+    <div style="margin-top: 2rem; color: rgba(133,183,235,0.3); font-size: 0.75rem;">Dibuat dengan 💙 untuk Piya</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
